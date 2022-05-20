@@ -1,3 +1,15 @@
+var vid = document.getElementById("myVideo"); 
+
+function playVid() { 
+  vid.play(); 
+} 
+
+function pauseVid() { 
+  vid.pause(); 
+} 
+
+
+
 $(document).ready(() => {
     $('#hamburger-menu').click(() => {
         $('#hamburger-menu').toggleClass('active')

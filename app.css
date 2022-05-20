@@ -1,8 +1,8 @@
 :root {
     --main-color: #115ff0;
-    --body-bg: #bcc4bc;
+    --body-bg: #898a85;
     --box-bg: #e91515;
-    --text-color: #f3eaea;
+    --text-color: #b1a118;
     --sai-color: #0e0d0d;
 
     --nav-height: 60px;
@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    font-family: "Cairo", sans-serif;
+    font-family:"inspiration", sans-serif;
     background-color: var(--body-bg);
     color: var(--text-color);
     padding-top: var(--nav-height);
@@ -72,7 +72,7 @@ img {
 }
 
 .nav a {
-    color: #f3e308;
+    color: #d4e217;
 }
 
 .logo {
@@ -107,7 +107,7 @@ img {
 .nav-menu a.btn:hover,
 a.logo:hover,
 a.movie-item:hover {
-    color:unset ;
+    color: unset;
 }
 
 .btn {
@@ -130,7 +130,7 @@ a.movie-item:hover {
     width: 50%;
     height: 100%;
     background-color: var(--main-color);
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 .btn-hover:hover::before {
@@ -139,7 +139,7 @@ a.movie-item:hover {
 
 .btn i,
 .btn span {
-    z-index: 1;
+     z-index:1;
 }
 
 .btn i {
@@ -151,7 +151,7 @@ a.movie-item:hover {
     height: var(--size);
     width: var(--size);
     cursor: pointer;
-    z-index: 101;
+    z-index: 150;
     position: relative;
     display: none;
     align-items: center;
