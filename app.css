@@ -72,7 +72,7 @@ img {
 }
 
 .nav a {
-    color: #d4e217;
+    color: #e2e4c5;
 }
 
 .logo {
@@ -111,7 +111,7 @@ a.movie-item:hover {
 }
 
 .btn {
-    color: hsl(56, 90%, 52%);
+    color: hsl(56, 41%, 86%);
     padding: 0.25rem 1.5rem;
     text-transform: uppercase;
     font-size: 1.25rem;
